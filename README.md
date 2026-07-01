@@ -39,6 +39,25 @@ pip install -e .
 pip install -r requirements-dev.txt
 python -m pytest
 ```
+
+## Reviewer Quickstart
+Reviewers can quickly verify the public components and datasets:
+
+1. **Read the guide:** Please read `docs/reviewer_guide.md` for a clear explanation of what can and cannot be reproduced publicly.
+2. **Validate the dataset:** Run the strict schema validation:
+   ```bash
+   python scripts/validate_literature_dataset.py --validation data/literature_validation.csv --sources data/literature_sources.csv
+   ```
+3. **Run the dataset overview:** This script prints an aggregate summary of the Literature Validation Set without leaking row-by-row points:
+   ```bash
+   python examples/literature_dataset_overview.py
+   ```
+4. **Run unit tests:** Run the test suite:
+   ```bash
+   python -m pytest
+   ```
+
+*Note: This repository does not contain the final trained machine learning models or any proprietary data. Therefore, the numerical metrics and full results of the paper cannot be completely reproduced here.*
 ## Public and Restricted Materials
 - This repository **does not** contain proprietary Mexican PVT datasets used for training, blind validation, or additional post-development validation in the paper.
 - It **does not** contain the final trained machine learning models (`.joblib` / `.pkl`) derived from proprietary data.
