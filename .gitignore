@@ -1,0 +1,72 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Environments
+.env
+.env.*
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+notebooks/*.ipynb
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# Office and manuscript files
+*.pdf
+*.docx
+*.pptx
+
+# Compressed files
+*.zip
+*.rar
+*.7z
+
+# Private or raw data folders
+data/raw/
+data/private/
+data/confidential/
+data/proprietary/
+raw_data/
+processed_data/
+private_data/
+confidential_data/
+proprietary_data/
+
+# Model artifacts
+*.joblib
+*.pkl
+*.pickle
+*.h5
+*.keras
+*.onnx
+saved_models/
+models/private/
+models/proprietary/
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Large or intermediate outputs
+outputs/private/
+outputs/confidential/
+figures/private/
+figures/confidential/
+results/private/
+results/confidential/
+
+# NOTE: General data/*.csv and results/*.csv are NOT blocked by default.
+# However, ONLY approved, traceable, and non-confidential CSV files 
+# (like the Literature Validation Set) are allowed to be tracked in this repository.

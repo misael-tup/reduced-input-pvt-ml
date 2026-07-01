@@ -1,0 +1,19 @@
+source_key,citation_short,year,literature_fluid_ids,n_points,notes
+standing_1958,Standing (1958),1958,L2,12,Published literature source; retained pressure points satisfy P <= Pb.
+walsh_1994,Walsh et al. (1994),1994,L3,9,Published literature source; retained pressure points satisfy P <= Pb.
+al_marhoun_2003,Al-Marhoun (2003),2003,L21,12,Published literature source; retained pressure points satisfy P <= Pb.
+mccain_2002,McCain (2002),2002,L4,13,Published literature source; retained pressure points satisfy P <= Pb.
+nnabuo_2014,Nnabuo et al. (2014),2014,L5,6,Published literature source; retained pressure points satisfy P <= Pb.
+igwe_ujile_2015,Igwe and Ujile (2015),2015,L6,7,Published literature source; retained pressure points satisfy P <= Pb.
+zhang_2024,Zhang et al. (2024),2024,L7,7,Published literature source; retained pressure points satisfy P <= Pb.
+okotie_2017,Okotie et al. (2017),2017,L8,8,Published literature source; retained pressure points satisfy P <= Pb.
+salehirad_2005,Salehirad (2005),2005,"L9,L10",18,Published literature source; retained pressure points satisfy P <= Pb.
+vasquez_beggs_1977,Vasquez and Beggs (1977),1977,L11,13,Published literature source; retained pressure points satisfy P <= Pb.
+elias_trevisan_2016,Elias and Trevisan (2016),2016,L12,9,Published literature source; retained pressure points satisfy P <= Pb.
+smith_tan_1997,Smith and Tan (1997),1997,L13,8,Published literature source; retained pressure points satisfy P <= Pb.
+okotie_fasanya_2020,Okotie and Fasanya (2020),2020,L14,10,Published literature source; retained pressure points satisfy P <= Pb.
+christensen_1999,Christensen (1999),1999,L15,7,Published literature source; retained pressure points satisfy P <= Pb.
+klein_1959,Klein (1959),1959,"L16,L17",20,Published literature source; retained pressure points satisfy P <= Pb.
+labedi_1982,Labedi (1982),1982,L18,11,Published literature source; retained pressure points satisfy P <= Pb.
+abidini_2018,Abidini et al. (2018),2018,L19,6,Published literature source; retained pressure points satisfy P <= Pb.
+alagoa_2023,Alagoa et al. (2023),2023,L20,8,Published literature source; retained pressure points satisfy P <= Pb.

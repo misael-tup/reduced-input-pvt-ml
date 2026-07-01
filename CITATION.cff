@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "reduced-input-pvt-ml: Public code and literature-validation companion repository for the reduced-input Hybrid-PT workflow"
+authors:
+  - family-names: "Zepeda-Diaz"
+    given-names: "Misael E."
+version: "0.1.0"
+date-released: "2026-07-01"
+license: "MIT"
+repository-code: "https://github.com/placeholder/reduced-input-pvt-ml"
