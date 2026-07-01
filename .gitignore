@@ -14,6 +14,7 @@ venv/
 # Jupyter
 .ipynb_checkpoints/
 notebooks/*.ipynb
+!notebooks/literature_validation_overview.ipynb
 
 # Logs and temporary files
 *.log

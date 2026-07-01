@@ -38,9 +38,16 @@ python scripts/validate_literature_dataset.py --validation data/literature_valid
 # Run the overview example script
 python examples/literature_dataset_overview.py
 
+# Open the public notebook locally
+pip install -r requirements-notebook.txt
+jupyter notebook notebooks/literature_validation_overview.ipynb
+
 # Run all unit tests
 python -m pytest
 ```
+
+Alternatively, you can interact with the public notebook directly in Google Colab:
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/misael-tup/reduced-input-pvt-ml/blob/main/notebooks/literature_validation_overview.ipynb)
 
 ## 5. Interpretation
 The **Literature Validation Set** is fully public and allows reviewers to check the consistency, physical domain boundaries, and origin of the published dataset. However, it does not substitute the proprietary Mexican PVT datasets that were fundamentally used to train the final model presented in the paper.

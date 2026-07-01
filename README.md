@@ -57,6 +57,19 @@ Reviewers can quickly verify the public components and datasets:
    python -m pytest
    ```
 
+## Notebook overview
+A public, executed Jupyter Notebook is available to visualize and validate the Literature Validation Set directly, without requiring proprietary models or data:
+- `notebooks/literature_validation_overview.ipynb`
+
+To run this notebook locally, install the optional dependencies first:
+```bash
+pip install -r requirements-notebook.txt
+jupyter notebook notebooks/literature_validation_overview.ipynb
+```
+
+Alternatively, you can run this notebook interactively in Google Colab (no local setup required):
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/misael-tup/reduced-input-pvt-ml/blob/main/notebooks/literature_validation_overview.ipynb)
+
 *Note: This repository does not contain the final trained machine learning models or any proprietary data. Therefore, the numerical metrics and full results of the paper cannot be completely reproduced here.*
 ## Public and Restricted Materials
 - This repository **does not** contain proprietary Mexican PVT datasets used for training, blind validation, or additional post-development validation in the paper.
